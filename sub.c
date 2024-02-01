@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
-  * f_sub- difference of first 2 elements
+  * fxn_sub- difference of first 2 elements
   * @head: head
   * @ctr: no. of line
   * Return: nothing
  */
-void f_sub(stack_t **head, unsigned int ctr)
+void fxn_sub(stack_t **head, unsigned int ctr)
 {
 	stack_t *mark;
 	int x, nodes;

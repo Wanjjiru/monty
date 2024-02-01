@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_push - pushes a node to stack
+ * fxn_push - pushes a node to stack
  * @head: head
  * @ctr: No. of lines
  * Return: nothing
 */
-void f_push(stack_t **head, unsigned int ctr)
+void fxn_push(stack_t **head, unsigned int ctr)
 {
 	int x, y = 0, flag = 0;
 

@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_mul - gets product of two elements
+ * fxn_mul - gets product of two elements
  * @head: head
  * @ctr: no. of line
  * Return: nothing
 */
-void f_mul(stack_t **head, unsigned int ctr)
+void fxn_mul(stack_t **head, unsigned int ctr)
 {
 	stack_t *h_ptr;
 	int len = 0, mark;

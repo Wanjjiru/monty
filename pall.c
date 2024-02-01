@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_pall - prints the stack
+ * fxn_pall - prints the stack
  * @head: head
  * @ctr: no. of line
  * Return: nothing
 */
-void f_pall(stack_t **head, unsigned int ctr)
+void fxn_pall(stack_t **head, unsigned int ctr)
 {
 	stack_t *h_ptr;
 	(void)ctr;

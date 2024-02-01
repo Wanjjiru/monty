@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * f_mod - gets modulus of stacks top element
+ * fxn_mod - gets modulus of stacks top element
  * @head: head
  * @ctr: no. of line
  * Return: nothing
 */
-void f_mod(stack_t **head, unsigned int ctr)
+void fxn_mod(stack_t **head, unsigned int ctr)
 {
 	stack_t *h_ptr;
 	int len = 0, mark;

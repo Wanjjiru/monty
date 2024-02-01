@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_pint - prints top line
+ * fxn_pint - prints top line
  * @head: head
  * @ctr: No. of line
  * Return: nothing
 */
-void f_pint(stack_t **head, unsigned int ctr)
+void fxn_pint(stack_t **head, unsigned int ctr)
 {
 	if (*head == NULL)
 	{

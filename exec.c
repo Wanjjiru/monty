@@ -10,16 +10,16 @@
 int execute(char *cnct, stack_t **stack, unsigned int ctr, FILE *file)
 {
 	instruction_t opst[] = {
-				{"push", f_push}, {"pall", f_pall}, {"pint", f_pint},
-				{"pop", f_pop},
-				{"swap", f_swap},
-				{"add", f_add},
-				{"nop", f_nop},
-				{"sub", f_sub},
-				{"div", f_div},
-				{"mul", f_mul},
-				{"mod", f_mod},
-				{"stack", f_stack},
+				{"push", fxn_push}, {"pall", fxn_pall}, {"pint", fxn_pint},
+				{"pop", fxn_pop},
+				{"swap", fxn_swap},
+				{"add", fxn_add},
+				{"nop", fxn_nop},
+				{"sub", fxn_sub},
+				{"div", fxn_div},
+				{"mul", fxn_mul},
+				{"mod", fxn_mod},
+				{"stack", fxn_stack},
 				{NULL, NULL}
 				};
 	unsigned int x = 0;

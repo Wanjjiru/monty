@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_swap - moves 2 elements of a stack.
+ * fxn_swap - moves 2 elements of a stack.
  * @head: ptr to head
  * @ctr: no. of line
  * Return: nothing
 */
-void f_swap(stack_t **head, unsigned int ctr)
+void fxn_swap(stack_t **head, unsigned int ctr)
 {
 	stack_t *h_ptr;
 	int len = 0, mark;

@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * f_add - returns addition of top 2 elements
+ * fxn_add - returns addition of top 2 elements
  * @head: head
  * @ctr: no. of lines
  * Return: nothing
  */
-void f_add(stack_t **head, unsigned int ctr)
+void fxn_add(stack_t **head, unsigned int ctr)
 {
 	stack_t *h_ptr;
 	int len = 0, mark;

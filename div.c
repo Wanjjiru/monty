@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_div - gets div of top 2 elements
+ * fxn_div - gets div of top 2 elements
  * @head: head
  * @ctr: No. of lines
  * Return: nothing
 */
-void f_div(stack_t **head, unsigned int ctr)
+void fxn_div(stack_t **head, unsigned int ctr)
 {
 	stack_t *h_ptr;
 	int len = 0, mark;
